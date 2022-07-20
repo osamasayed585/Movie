@@ -22,7 +22,8 @@
             android:id="@+id/img_cover"
             android:layout_width="120dp"
             android:layout_height="100dp"
-            android:src="@drawable/placeholder" />
+            android:src="@drawable/placeholder"
+            tools:ignore="ContentDescription" />
 
     </androidx.cardview.widget.CardView>
 
@@ -63,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="@+id/txv_title"
         app:layout_constraintStart_toEndOf="@+id/txv_published"
         app:layout_constraintTop_toBottomOf="@+id/txv_title"
-        tools:text="Un Known" />
+        android:text="@string/un_known" />
 
     <TextView
         android:id="@+id/txv_publishedDate"

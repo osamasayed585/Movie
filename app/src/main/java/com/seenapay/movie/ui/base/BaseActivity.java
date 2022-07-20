@@ -62,8 +62,4 @@ public class BaseActivity extends AppCompatActivity {
         startActivity(getIntent());
     }
 
-    public void onBackClick(View view) {
-        finish();
-    }
-
 }
